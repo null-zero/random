@@ -6,4 +6,4 @@ if not A_IsAdmin
 }
 
 #If (Winactive("ahk_exe firefox.exe") || Winactive("ahk_exe chrome.exe") || Winactive("ahk_exe brave.exe"))
-b::Return
+*b::Return
